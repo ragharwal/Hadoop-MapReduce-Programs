@@ -5,7 +5,6 @@
 4. Open the terminal in directory `/home/cloudera`
 5. Run the following commands (Step-By-Step):
   ```
-pwd 
 cat > /home/cloudera/inputfile.txt
 hdfs dfs -put /home/cloudera/inputfile.txt /inputFolder
 hdfs dfs -cat /inputFolder/inputfile.txt
